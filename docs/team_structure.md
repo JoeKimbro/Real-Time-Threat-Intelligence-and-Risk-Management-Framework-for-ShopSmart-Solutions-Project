@@ -1,4 +1,5 @@
 Role Responsibilities
+
 Jaylen Sinclair - Team Lead (Project Manager) Oversees project workflow, ensures deadlines are met.
 
 Dylan Johnson - Back-End Developer Implements API integrations, builds risk scoring algorithms.
