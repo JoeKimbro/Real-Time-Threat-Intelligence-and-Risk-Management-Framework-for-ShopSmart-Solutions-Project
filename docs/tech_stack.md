@@ -1,9 +1,9 @@
-Back-End :
+Back-End : Python/Django
 
-Front-End :
+Front-End : React
 
-Database :
+Database : MongoDB
 
-OSINT API :
+OSINT API : Shodan,
 
-LLM Model for Risk Scoring :
+LLM Model for Risk Scoring : Chat GPT-4o
