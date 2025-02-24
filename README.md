@@ -6,3 +6,10 @@ group of five students will collaborate to analyze threats, vulnerabilities, and
 will incorporate Open Source Intelligence (OSINT) tools, automation via Large Language
 Models (LLMs), and alignment with the NIST Risk Management Framework (RMF) and
 NIST Cybersecurity Framework (CSF) 2.0
+
+
+• Project Manager: Jaylen Sinclair
+• OSINT Specialist: Dylan Johnson
+• Risk Analyst: Joseph Kimbrough
+• Developer: Abraham Molina
+• Documentation Lead: Semyon Tsyrenov
