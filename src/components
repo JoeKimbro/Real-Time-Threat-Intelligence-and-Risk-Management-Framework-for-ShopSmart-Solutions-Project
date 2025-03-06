@@ -1,0 +1,12 @@
+function ThreatDashboard() {
+  return (
+    <div>
+    <h1>Real-Time Threat Intelligence</h1>
+    <p>Live Threat Updates will be displayed here.</p>
+    </div>
+    Threat Logs
+    Risk Scores
+    Real Time Alerts
+    );
+}
+export default ThreatDashboard;
