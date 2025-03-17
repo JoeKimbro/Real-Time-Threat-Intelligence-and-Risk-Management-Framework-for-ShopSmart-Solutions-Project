@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ThreatList from './ThreatList';
+
+const threatsData = [
+  { name: 'Malware', vulnerability: 'Outdated software', risk_score: 8 },
+  { name: 'Phishing', vulnerability: 'Human error', risk_score: 7 },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThreatList threats={threatsData} />
   );
 }
 
