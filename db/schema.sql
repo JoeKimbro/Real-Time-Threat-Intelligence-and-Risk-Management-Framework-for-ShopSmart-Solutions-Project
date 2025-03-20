@@ -1,8 +1,7 @@
 CREATE TABLE ASSETS (
   ASSET_ID SERIAL PRIMARY KEY,              
   ASSET_NAME VARCHAR(255) NOT NULL,          
-  ASSET_TYPE VARCHAR(100) NOT NULL,         
-  CATEGORY VARCHAR(50),                     
+  ASSET_TYPE VARCHAR(100) NOT NULL,                         
   DESCRIPTION TEXT                           
 );
 
