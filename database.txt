@@ -1,0 +1,7 @@
+
+Host	dpg-cvm1k5h5pdvs739f5540-a.oregon-postgres.render.com
+Port	5432
+Database	treats
+Username	project_user
+Password	QhBzwcVWbMaB9wXgEfvPj6NzZlQQzPcS
+SSL	enabled, SSL Mode = require
