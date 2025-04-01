@@ -4,7 +4,7 @@ function ThreatDashboard() {
   const [threats, setThreats] = useState([]);
 
   useEffect(() => {
-    fetch("/api/threats")
+    fetch("http://127.0.0.1:5000/api/threats")
       .then((res) => res.json())
       .then((data) => setThreats(data))
       .catch((err) => console.error("Failed to fetch threats:", err));
@@ -36,3 +36,4 @@ function ThreatDashboard() {
 }
 
 export default ThreatDashboard;
+

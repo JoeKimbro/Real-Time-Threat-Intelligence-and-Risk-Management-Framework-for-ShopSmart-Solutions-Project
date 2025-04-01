@@ -12,5 +12,3 @@ def send_alert(threat, risk_score):
         server.login("your-email", "password")
         server.sendmail("alerts@shopsmart.com", "admin@shopsmart.com", msg.as_string())
 
-
-send_alert("SQL Injection", 25)
