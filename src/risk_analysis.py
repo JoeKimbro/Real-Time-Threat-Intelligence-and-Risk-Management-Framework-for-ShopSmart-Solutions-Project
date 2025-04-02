@@ -1,23 +1,16 @@
-def calculate_risk(likelihood, impact):
-    return likelihood * impact
+from transformers import pipeline
 
+# Load sentiment-analysis pipeline for demonstration
+model = pipeline("text-classification")
 
+def analyze_risk(threat, likelihood, impact):
+    input_text = f"Risk analysis for {threat} with likelihood {likelihood} and impact {impact}."
+    result = model(input_text)
+    
+    # Simple mapping
+    if result[0]['label'] == 'NEGATIVE':
+        return "High Risk"
+    else:
+        return "Low Risk"
 
-# Example Threat Rating
-threats = [
-    {"threat": "SQL Injection", "likelihood": 4, "impact": 5},
-    {"threat": "Phishing Attack", "likelihood": 5, "impact": 3},
-    {"threat": "Malware Infection", "likelihood": 4, "impact": 4},
-    {"threat": "Ransomware Attack", "likelihood": 3, "impact": 5},
-    {"threat": "Distributed Denial of Service (DDoS)", "likelihood": 4, "impact": 4},
-    {"threat": "Zero-day Exploit", "likelihood": 2, "impact": 5},
-    {"threat": "Man-in-the-Middle Attack", "likelihood": 3, "impact": 4},
-    {"threat": "Cross-Site Scripting (XSS)", "likelihood": 4, "impact": 3},
-]
-
-
-
-for threat in threats:
-    risk_score = calculate_risk(threat["likelihood"],
-    threat["impact"])
-    print(f"Threat: {threat['threat']}, Risk Score: {risk_score}")
+print(analyze_risk("Phishing Attack", 5, 4))
