@@ -1,0 +1,92 @@
+/* ThreatList.css - Combined styling from App.css and additional styles */
+
+.App, .threat-list-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+.filters, .threat-filter {
+  margin: 15px 0;
+}
+
+.filters input, .threat-filter input {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.filters button, .threat-filter button, 
+.view-btn, .scan-btn, .export-btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+
+.filters button:hover, .threat-filter button:hover,
+.view-btn:hover, .scan-btn:hover, .export-btn:hover {
+  background-color: #0056b3;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.loading, .error {
+  margin: 50px auto;
+  font-size: 18px;
+  color: #666;
+}
+
+.error {
+  color: #d9534f;
+}
+
+.no-threats {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.threat-actions {
+  margin: 20px 0;
+}
+
+.view-btn {
+  background-color: #28a745;
+}
+
+.view-btn:hover {
+  background-color: #218838;
+}
+
+.scan-btn {
+  background-color: #007bff;
+}
+
+.export-btn {
+  background-color: #6c757d;
+}
+
+.export-btn:hover {
+  background-color: #5a6268;
+}
+

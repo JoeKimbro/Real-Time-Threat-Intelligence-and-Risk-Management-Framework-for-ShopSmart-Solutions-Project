@@ -1,0 +1,124 @@
+2025-03-31 18:49:04,654 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:49:04,655 - osint_api - ERROR - Failed to connect to database during initialization
+2025-03-31 18:49:04,655 - osint_api - INFO - Starting Flask server on port 5000, debug mode: False
+2025-03-31 18:49:04,674 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.26.119:5000
+2025-03-31 18:49:04,675 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 18:50:01,965 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:50:01,977 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:50:01,978 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 18:50:01] "GET /api/health HTTP/1.1" 200 -
+2025-03-31 18:50:01,978 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 18:50:01,987 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 18:50:01] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 18:50:02,005 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:50:02,006 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 18:50:02] "GET /api/health HTTP/1.1" 200 -
+2025-03-31 18:50:02,009 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:50:02,009 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 18:50:02,011 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 18:50:02] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 18:50:02,031 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:50:02,031 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 18:50:02,031 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 18:50:02] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 18:50:02,044 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 18:50:02,044 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 18:50:02,045 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 18:50:02] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 19:04:14,329 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:04:14,331 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:04:14,336 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:04:14] "GET /api/health HTTP/1.1" 200 -
+2025-03-31 19:04:14,337 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 19:04:14,346 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:04:14] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 19:04:14,360 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:04:14,361 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 19:04:14,362 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:04:14] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 19:05:04,864 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:04,866 - osint_api - ERROR - Failed to connect to database during initialization
+2025-03-31 19:05:04,866 - osint_api - INFO - Starting Flask server on port 5000, debug mode: False
+2025-03-31 19:05:04,885 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.26.119:5000
+2025-03-31 19:05:04,885 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 19:05:40,931 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:40,934 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:05:40] "GET /api/health HTTP/1.1" 200 -
+2025-03-31 19:05:40,934 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:40,937 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 19:05:40,952 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:05:40] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 19:05:40,957 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:40,961 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:05:40] "GET /api/health HTTP/1.1" 200 -
+2025-03-31 19:05:40,969 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:40,970 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 19:05:40,971 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:05:40] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 19:05:40,978 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:40,978 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 19:05:40,980 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:05:40] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
+2025-03-31 19:05:40,999 - osint_api - ERROR - Database connection error: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-03-31 19:05:41,000 - osint_api - ERROR - Database connection failed in /api/threatdata
+2025-03-31 19:05:41,001 - werkzeug - INFO - 127.0.0.1 - - [31/Mar/2025 19:05:41] "[35m[1mGET /api/threatdata HTTP/1.1[0m" 500 -
