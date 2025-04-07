@@ -1,0 +1,10 @@
+import redis
+cache = redis.Redis(host='localhost', port=6379, db=0)
+def get_threat_data(ip):
+cached_data = cache.get(ip)
+if cached_data:
+return cached_data # Return cached result
+else:
+data = fetch_from_osint(ip) # Call API if not cached
+cache.setex(ip, 3600, data) # Store result for 1 hour
+return data
