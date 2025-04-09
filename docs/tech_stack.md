@@ -1,9 +1,9 @@
-Back-End : Python/Django
+Back-End : Python/Flask
 
 Front-End : React
 
-Database : MongoDB
+Database : Postgres
 
-OSINT API : Shodan, SecurityTrails API, IntelOwl, Any.Run
+OSINT API : Shodan, SecurityTrails API
 
 LLM Model for Risk Scoring : Chat GPT-4o
