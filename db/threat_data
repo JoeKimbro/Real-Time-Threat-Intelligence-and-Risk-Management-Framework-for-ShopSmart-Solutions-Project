@@ -7,12 +7,6 @@ CREATE TABLE threat_data (
     services TEXT,                          -- Storing hostnames/services as text
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     risk_score INTEGER,                     -- For alert functionality
-    
-    country TEXT,
-    org TEXT,
-    isp TEXT,
-    os TEXT,
-    last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE INDEX idx_ip_address ON threat_data(ip_address);
