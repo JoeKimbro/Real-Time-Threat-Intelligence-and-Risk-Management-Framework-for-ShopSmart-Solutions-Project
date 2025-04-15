@@ -1,4 +1,4 @@
---We would need to change the Fetch-osint data function to fit more api integration, this table really only works for shodan
+--We would need to change the Fetch-osint data function to fit more api integration, this table really only works for shodan (check line 28 of fetch_osint.py)
 
 CREATE TABLE threat_data (
     id SERIAL PRIMARY KEY,
