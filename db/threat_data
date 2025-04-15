@@ -1,0 +1,20 @@
+--We would need to change the Fetch-osint data function to fit more api integration, this table really only works for shodan
+
+CREATE TABLE threat_data (
+    id SERIAL PRIMARY KEY,
+    ip_address VARCHAR(45) NOT NULL,        -- IPv4 or IPv6 address
+    ports TEXT,                             -- Storing ports as text (converted from list)
+    services TEXT,                          -- Storing hostnames/services as text
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    risk_score INTEGER,                     -- For alert functionality
+    
+    country TEXT,
+    org TEXT,
+    isp TEXT,
+    os TEXT,
+    last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_ip_address ON threat_data(ip_address);
+
+CREATE INDEX idx_risk_score ON threat_data(risk_score);
