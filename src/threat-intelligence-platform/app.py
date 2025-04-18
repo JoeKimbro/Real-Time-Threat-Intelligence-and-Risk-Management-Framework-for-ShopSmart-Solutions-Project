@@ -35,5 +35,42 @@ def get_threats():
 
     return jsonify(threats)
 
+@app.route("/api/vulnerabilities", methods=["GET"])
+def get_vulnerabilities():
+    conn = psycopg2.connect(**db_params)
+    cursor = conn.cursor()
+
+    # Join tva_mapping with assets to get the asset name
+    query = """
+        SELECT 
+            a.asset_name,
+            m.vulnerability_description,
+            m.threat_name,
+            m.likelihood,
+            m.impact,
+            m.risk_score
+        FROM tva_mapping m
+        JOIN assets a ON m.asset_id = a.id
+    """
+    cursor.execute(query)
+    rows = cursor.fetchall()
+    cursor.close()
+    conn.close()
+
+    # Format the data
+    results = []
+    for row in rows:
+        results.append({
+            "asset": row[0],
+            "vulnerability": row[1],
+            "threat": row[2],
+            "likelihood": row[3],
+            "impact": row[4],
+            "risk_score": row[5],
+        })
+
+    return jsonify(results)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
